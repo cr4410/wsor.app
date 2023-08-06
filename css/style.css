@@ -237,6 +237,39 @@ body {
     padding: 10px 20px;
 }
 
+.footer-navbar {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-nav-button {
+    background: black;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 0 0;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+.active {
+    color: #ba0000;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, .75);
+}
+
+.footer-nav-button:hover {
+    color: #ff6262;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, .25);
+}
+
+.active:hover {
+    color: #ba0000;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, .75);
+}
+
 .footer-text {
     color: #acacac;
     font-size: 15px;
@@ -250,6 +283,24 @@ body {
 /* FOOTER - MOBILE */
 
 @media(max-width: 768px) {
+
+    .footer-nav-button {
+        font-size: 15px;
+        padding: 5px 10px;
+        margin: 5px 5px;
+    }
+
+    .active {
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
+    }
+
+    .footer-nav-button:hover {
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
+    }
+
+    .active:hover {
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
+    }
 
     .footer-text {
         font-size: 15px;
