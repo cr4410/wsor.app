@@ -119,6 +119,10 @@ body {
     width: 100%;
 }
 
+.flickity-button {
+    display: none;
+}
+
 .image-caption {
     color: #acacac;
     font-size: 15px;
@@ -136,10 +140,6 @@ body {
         font-size: 10px;
         padding-left: 25px;
         padding-right: 25px;
-    }
-
-    .flickity-button {
-        display: none;
     }
 
 }
