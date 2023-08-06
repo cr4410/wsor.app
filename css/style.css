@@ -118,12 +118,24 @@ body {
 }
 
 .image-caption {
-    color: #cacaca;
+    color: #acacac;
     font-size: 15px;
     font-weight: 300;
     padding-top: 5px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+/* IMAGE GALLERY - MOBILE */
+
+@media(max-width: 768px) {
+
+    .image-caption {
+        font-size: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
 }
 
 /* INTRODUCTION/RESOURCES */
@@ -220,7 +232,7 @@ body {
 }
 
 .footer-text {
-    color: #cacaca;
+    color: #acacac;
     font-size: 15px;
     font-weight: 500;
     padding-top: 10px;
