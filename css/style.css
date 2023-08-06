@@ -30,7 +30,7 @@ body {
 
 .site-name {
     color: white;
-    font-size: 55px;
+    font-size: 60px;
     font-variant-caps: small-caps;
     text-align: left;
 }
@@ -44,7 +44,7 @@ body {
 .nav-button {
     background: black;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     box-shadow: 0 0 0;
     display: inline-block;
     padding: 10px 20px;
@@ -84,7 +84,7 @@ body {
     }
 
     .site-name {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .nav-button {
@@ -96,11 +96,11 @@ body {
     .active {
         box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
     }
-    
+
     .nav-button:hover {
         box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
     }
-    
+
     .active:hover {
         box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
     }
@@ -133,8 +133,8 @@ body {
 
     .image-caption {
         font-size: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 }
@@ -151,7 +151,7 @@ body {
 
 .section-header {
     color: #ba0000;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-variant-caps: small-caps;
     padding-top: 50px;
@@ -205,18 +205,31 @@ body {
 @media(max-width: 768px) {
 
     .section-header {
-        padding-left: 25px;
-        padding-right: 25px;
+        font-size: 30px;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .section-text {
-        padding-left: 25px;
-        padding-right: 25px;
+        font-size: 10px;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .link {
-        padding-left: 25px;
-        padding-right: 25px;
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .first {
+        padding-top: 25px;
+    }
+
+    .last {
+        padding-bottom: 25px;
     }
 
 }
@@ -247,8 +260,11 @@ body {
 @media(max-width: 768px) {
 
     .footer-text {
-        padding-left: 25px;
-        padding-right: 25px;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 }
