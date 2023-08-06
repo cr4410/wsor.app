@@ -133,8 +133,8 @@ body {
 
     .image-caption {
         font-size: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
 }
@@ -207,21 +207,21 @@ body {
     .section-header {
         font-size: 30px;
         padding-top: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .section-text {
         font-size: 10px;
         padding-top: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .link {
         font-size: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .first {
@@ -263,8 +263,8 @@ body {
         font-size: 15px;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
 }
