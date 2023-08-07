@@ -1,26 +1,29 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* WHOLE BODY */
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
 /* NAVBAR */
 
 .navbar {
     font-family: 'Roboto Condensed', Arial, sans-serif;
-    background-color: #ba0000;
+    background-color: #8e0000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
 }
 
 .navbar-left {
@@ -33,12 +36,14 @@ body {
     font-size: 60px;
     font-variant-caps: small-caps;
     text-align: left;
+    padding: 20px 20px;
 }
 
 .navbar-right {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    padding-right: 20px;
 }
 
 .nav-button {
@@ -48,7 +53,7 @@ body {
     box-shadow: 0 0 0;
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px 10px;
+    margin: 20px 20px;
     text-decoration: none;
 }
 
@@ -80,18 +85,19 @@ body {
 
 @media(max-width: 768px) {
 
-    .navbar {
+    .site-name {
+        font-size: 30px;
         padding: 10px 10px;
     }
 
-    .site-name {
-        font-size: 30px;
+    .navbar-right {
+        padding-right: 10px;
     }
 
     .nav-button {
         font-size: 15px;
         padding: 5px 10px;
-        margin: 5px 5px;
+        margin: 10px 10px;
     }
 
     .active {
@@ -229,12 +235,11 @@ body {
 /* FOOTER */
 
 .page-footer {
-    background-color: #ba0000;
+    background-color: #8e0000;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
 }
 
 .footer-navbar {
@@ -247,37 +252,75 @@ body {
 .footer-nav-button {
     background: black;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: 0 0 0;
     display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 10px;
+    padding: 5px 15px;
+    margin: 25px 10px;
     text-decoration: none;
 }
 
 .active {
     color: #ba0000;
-    box-shadow: 8px 8px 0 rgba(0, 0, 0, .75);
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, .75);
 }
 
 .footer-nav-button:hover {
     color: #ff6262;
-    box-shadow: 8px 8px 0 rgba(0, 0, 0, .25);
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, .25);
 }
 
 .active:hover {
     color: #ba0000;
-    box-shadow: 8px 8px 0 rgba(0, 0, 0, .75);
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, .75);
 }
 
 .footer-text {
     color: #acacac;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.updated {
+    color: white;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.by {
+    padding-bottom: 0px;
+}
+
+.name {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+
+.footer-link {
+    padding: 2px;
+    padding-top: 5px;
+}
+
+.logo {
+    width: 20px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.copyright {
+    color: white;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* FOOTER - MOBILE */
@@ -287,7 +330,7 @@ body {
     .footer-nav-button {
         font-size: 15px;
         padding: 5px 10px;
-        margin: 5px 5px;
+        margin: 15px 10px;
     }
 
     .active {
@@ -295,7 +338,7 @@ body {
     }
 
     .footer-nav-button:hover {
-        box-shadow: 4px 4px 0 rgba(0, 0, 0, .75);
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, .25);
     }
 
     .active:hover {
@@ -304,10 +347,41 @@ body {
 
     .footer-text {
         font-size: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    .updated {
+        padding-top: 15px;
+    }
+
+    .by {
+        padding-bottom: 0px;
+    }
+
+    .name {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 5px;
+    }
+
+    .footer-link {
+        padding: 2px;
+        padding-top: 5px;
+    }
+
+    .logo {
+        width: 15px;
+    }
+
+    .author {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .copyright {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
 }
