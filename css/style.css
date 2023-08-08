@@ -97,7 +97,7 @@ body {
     .nav-button {
         font-size: 15px;
         padding: 5px 10px;
-        margin: 10px 10px;
+        margin: 5px 5px;
     }
 
     .active {
@@ -327,10 +327,17 @@ body {
 
 @media(max-width: 768px) {
 
+    .footer-navbar {
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding: 10px;
+    }
+
     .footer-nav-button {
         font-size: 15px;
         padding: 5px 10px;
-        margin: 15px 10px;
+        margin: 5px 5px;
     }
 
     .active {
