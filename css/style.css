@@ -410,7 +410,7 @@ body {
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
-    overflow-x: scroll;
+    overflow-x: auto;
     width: auto;
 }
 
