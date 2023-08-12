@@ -454,6 +454,10 @@ td:first-child {
     font-weight: 700;
 }
 
+td:last-child {
+    min-width: 500px;
+}
+
 /* DATA TABLES - MOBILE */
 
 @media(max-width: 768px) {
