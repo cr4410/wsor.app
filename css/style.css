@@ -412,6 +412,7 @@ body {
     margin-right: 100px;
     overflow-x: auto;
     width: auto;
+    max-width: 85%;
 }
 
 .data-table {
@@ -475,6 +476,37 @@ td:last-child {
         border: 1px solid black;
         padding: 3px;
         font-size: 15px;
+    }
+
+}
+
+/* SCROLLBARS */
+
+::-webkit-scrollbar {
+    width: auto;
+}
+
+::-webkit-scrollbar-track {
+    background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ba0000;
+}
+
+/* CONTACT */
+
+.iframe-container {
+    width: auto;
+}
+
+/* CONTACT - MOBILE */
+
+@media(max-width: 768px) {
+
+    .iframe-container {
+        width: 85%;
+        overflow: auto;
     }
 
 }
