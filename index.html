@@ -1,191 +1,200 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
 
 <head>
-
-    <!-- Standard -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Title -->
     <title>Home | WSOR Cheatsheet</title>
-
-    <!-- Description -->
     <meta name="description"
         content="A resource page centered around the Wisconsin and Southern Railroad (WSOR) that aims to provide accurate information to fans and hobbyists.">
     <meta name="keywords" content="railroad, railway, train, trains, railfan, railfans, wisconsin">
     <meta name="author" content="Carson Russell">
-
-    <!-- Links -->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
-    <!-- Flickity -->
     <link rel="stylesheet" href="css/flickity.css" media="screen">
-
 </head>
 
 <body>
-
     <!-- Flickity -->
     <script src="js/flickity.js"></script>
-
-    <!-- NAVBAR -->
+    <!-- Navbar -->
     <nav>
         <div class="navbar">
             <div class="navbar-left">
-                <span class="site-name">WSOR Cheatsheet</span>
+                <div class="url-box">
+                    <a class="site-url" href="index.html">WSOR.APP</a>
+                </div>
+                <div class="dash-box">
+                    <a class="site-dash" href="index.html">&nbsp;—&nbsp;</a>
+                </div>
+                <div class="name-box">
+                    <span class="site-name">The WSOR Cheatsheet</span>
+                </div>
             </div>
             <div class="navbar-right">
-                <div class="nav-button">
-                    <a class="nav-link active parallelogram" href="index.html"><span class="skew-fix">HOME</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link active" href="index.html"><span class="skew-fix">HOME</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="maps.html"><span class="skew-fix">MAPS</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="maps.html"><span class="skew-fix">MAPS</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="trains.html"><span class="skew-fix">TRAINS</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="trains.html"><span class="skew-fix">TRAINS</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="lines.html"><span class="skew-fix">LINES</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="lines.html"><span class="skew-fix">LINES</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="power.html"><span class="skew-fix">POWER</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="power.html"><span class="skew-fix">POWER</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="contact.html"><span class="skew-fix">CONTACT</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="contact.html"><span class="skew-fix">CONTACT</span></a>
                 </div>
             </div>
         </div>
     </nav>
-
-    <!-- IMAGE GALLERY -->
+    <!-- Image gallery -->
     <div class="image-gallery js-flickity"
-        data-flickity-options='{"cellAlign": "center", "contain": true, "wrapAround": true, "autoPlay": 8000}'>
+        data-flickity-options='{"cellAlign": "center", "contain": true, "wrapAround": true, "prevNextButtons": false, "pageDots": false, "autoPlay": 5000, "pauseAutoPlayOnHover": false}'>
         <div class="gallery-cell">
-            <img class="gallery-image" src="img/janesville-buisness.jpg" alt="">
-            <p class="image-caption"><i>A rather uncommon buisness train on the WSOR crosses the Rock River in
+            <img class="gallery-image" src="img\banner-gallery\janesville-buisness-min.jpg" alt="">
+            <p class="image-caption very-small-top-margin"><i>A rather uncommon buisness train on the WSOR crosses the
+                    Rock
+                    River in
                     Janesville.</i></p>
-            <p class="image-credit"><i>Taken by Carson Russell on 6/23/23</i></p>
+            <p class="image-credit very-small-top-margin">© Carson Russell - 6/23/23</p>
         </div>
         <div class="gallery-cell">
-            <img class="gallery-image" src="img/merrimac-river.jpg" alt="">
-            <p class="image-caption"><i>The Baraboo job crosses the Merrimac River, approaching Devils Lake.</i></p>
-            <p class="image-credit"><i>Taken by Carson Russell on 6/27/23</i></p>
+            <img class="gallery-image" src="img\banner-gallery\merrimac-river-min.jpg" alt="">
+            <p class="image-caption very-small-top-margin"><i>The Baraboo job crosses the Merrimac River, approaching
+                    Devils Lake.</i></p>
+            <p class="image-credit very-small-top-margin">© Carson Russell - 6/27/23</p>
         </div>
         <div class="gallery-cell">
-            <img class="gallery-image" src="img/baraboo-job-road.JPG" alt="">
-            <p class="image-caption"><i>L467 heads out of Lodi on its way to cross the Merrimac River.</i></p>
-            <p class="image-credit"><i>Taken by Carson Russell on 6/27/23</i></p>
+            <img class="gallery-image" src="img\banner-gallery\baraboo-job-road-min.JPG" alt="">
+            <p class="image-caption very-small-top-margin"><i>L467 heads out of Lodi on its way to cross the Merrimac
+                    River.</i></p>
+            <p class="image-credit very-small-top-margin">© Carson Russell - 6/27/23</p>
         </div>
         <div class="gallery-cell">
-            <img class="gallery-image" src="img/janesville-yard-buisness.JPG" alt="">
-            <p class="image-caption"><i>3894 arrives at Janesville Yard with a rather rare buisness train in
+            <img class="gallery-image" src="img\banner-gallery\janesville-yard-buisness-min.JPG" alt="">
+            <p class="image-caption very-small-top-margin"><i>3894 arrives at Janesville Yard with a rather rare
+                    buisness
+                    train in
                     tow.</i></p>
-            <p class="image-credit"><i>Taken by Carson Russell on 6/23/23</i></p>
+            <p class="image-credit very-small-top-margin">© Carson Russell - 6/23/23</p>
         </div>
     </div>
-
     <main>
-
-        <!-- INTRODUCTION -->
-        <div class="section">
-            <h2 class="section-header parallelogram-2"><span class="skew-fix-2">The Wisconsin and Southern Railroad
-                    Unofficial Cheatsheet</span></h2>
-            <div class="intro-paragraphs">
-                <p class="section-text">T4! WAMX 6030! L595! Watertown Sub! What do these even mean?</p>
-                <p class="section-text">The Watco-owned, Class II, 837 mile-long Wisconsin and Southern Railroad has
+        <!-- Introduction -->
+        <div class="main-section">
+            <div class="header-box parallelogram large-margins very-large-side-margins">
+                <h1 class="section-header"><span class="skew-fix">The Wisconsin and Southern Railroad
+                        Unofficial Cheatsheet</span></h1>
+            </div>
+            <div class="intro-paragraphs large-margins">
+                <p class="section-text small-margins">T4! WAMX 6022! L595! Watertown Sub! What do these even mean?</p>
+                <p class="section-text small-margins">The Watco-owned, Class II, 837 mile-long Wisconsin and Southern
+                    Railroad has
                     garnished an impressively large following in the land of photographing trains, and understandably
                     many people on various online communities often get confused by its many operations. The goal of
                     this site is to provide accurate information for all to read and use on their next intense WSOR
                     train chase. Good luck to all and stay safe!</p>
-                <p class="section-text last-section-text">If you have any questions or have new or updated information,
+                <p class="section-text small-margins">If you have any questions or have new or updated information,
                     please click
                     the "CONTACT" button at the top or bottom which will take you to a Google Form. Thank you!</p>
             </div>
         </div>
-
-        <!-- RESOURCES -->
-        <div class="section">
-            <h2 class="section-subheader">Useful External Resources</h2>
-            <div class="resource-links">
-                <a class="link" href="https://www.watco.com/service/rail/wsor/"
+        <!-- Resources -->
+        <div class="main-section">
+            <div class="subheader-box parallelogram large-margins very-large-side-margins">
+                <h2 class="section-subheader"><span class="skew-fix">Useful External
+                        Resources</span></h2>
+            </div>
+            <div class="resource-links large-margins">
+                <a class="resource-link very-small-margins" href="https://www.watco.com/service/rail/wsor/"
                     title="Wisconsin & Southern Railroad (WSOR) - Watco Companies" target="_blank">Watco official
                     site</a>
-                <a class="link" href="https://www.chicagorailfan.com/rfmaaawi.html"
+                <p class="section-text small-margins">The official site for WSOR from Watco has some basic information
+                    about its operations, as well as some interesting static and interactive route maps.</p>
+                <a class="resource-link very-small-margins" href="https://www.chicagorailfan.com/rfmaaawi.html"
                     title="Wisconsin & Southern - Chicago Transit & Railfan" target="_blank">Line operating information
                     by Chicago
                     Transit & Railfan</a>
-                <a class="link" href="https://wisconsindot.gov/documents/travel/rail/railmap.pdf"
+                <a class="resource-link very-small-margins"
+                    href="https://wisconsindot.gov/documents/travel/rail/railmap.pdf"
                     title="Wisconsin Railroads and Harbors 2023 Map - Wisconsin DOT" target="_blank">Wisconsin Railroads
                     and Harbors
                     2023 Map</a>
-                <a class="link last-link"
+                <a class="resource-link very-small-margins"
                     href="https://www.loc.gov/resource/g4121p.ct001917/?r=-0.293,-0.013,1.699,1.418,0"
                     title="Official railroad map of Wisconsin, 1900 - Library of Congress" target="_blank">Official
                     railroad map of
                     Wisconsin, 1900</a>
             </div>
         </div>
-
     </main>
-
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer>
         <div class="page-footer">
             <div class="footer-navbar">
-                <div class="nav-button">
-                    <a class="nav-link active parallelogram" href="index.html"><span class="skew-fix">HOME</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link active" href="index.html"><span class="skew-fix">HOME</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="maps.html"><span class="skew-fix">MAPS</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="maps.html"><span class="skew-fix">MAPS</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="trains.html"><span class="skew-fix">TRAINS</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="trains.html"><span class="skew-fix">TRAINS</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="lines.html"><span class="skew-fix">LINES</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="lines.html"><span class="skew-fix">LINES</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="power.html"><span class="skew-fix">POWER</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="power.html"><span class="skew-fix">POWER</span></a>
                 </div>
-                <div class="nav-button">
-                    <a class="nav-link parallelogram" href="contact.html"><span class="skew-fix">CONTACT</span></a>
+                <div class="nav-button parallelogram">
+                    <a class="nav-link" href="contact.html"><span class="skew-fix">CONTACT</span></a>
                 </div>
             </div>
-            <div class="footer-source">
-                <div class="footer-author">
-                    <p class="footer-source-text">Information sourced and compiled by</p>
+            <div class="footer-sources">
+                <div class="footer-sourced">
+                    <p class="footer-sourced-text"><i>All information happily sourced and compiled by:</i></p>
                 </div>
-                <div class="footer-author">
-                    <p class="footer-source-text">Carson Russell</p>
-                    <a class="footer-source-link" href="https://www.instagram.com/milwaukee_road/" target="_blank">
-                        <img class="footer-source-logo" src="img/instagram-logo.png" alt="Instagram">
-                    </a>
-                    <a class="footer-source-link" href="https://www.youtube.com/@MILWproductions/" target="_blank">
-                        <img class="footer-source-logo" src="img/youtube-logo.png" alt="Instagram">
-                    </a>
-                </div>
-                <div class="footer-author">
-                    <p class="footer-source-text">Roman Stelter</p>
-                    <a class="footer-source-link" href="https://www.instagram.com/milwaukee_road_is_great/"
-                        target="_blank">
-                        <img class="footer-source-logo" src="img/instagram-logo.png" alt="Instagram">
-                    </a>
-                    <a class="footer-source-link" href="https://www.youtube.com/@RoaminaroundwithRoman/"
-                        target="_blank">
-                        <img class="footer-source-logo" src="img/youtube-logo.png" alt="Instagram">
-                    </a>
+                <div class="footer-authors">
+                    <div class="footer-author">
+                        <p class="footer-author-text">Carson Russell</p>
+                        <div class="author-social">
+                            <img class="social-icon" src="img\instagram-logo.png">
+                            <a class="footer-author-link" href="https://www.instagram.com/milwaukee_road/"
+                                target="_blank"><i>&nbsp;@milwaukee_road</i></a>
+                        </div>
+                        <div class="author-social">
+                            <img class="social-icon" src="img\youtube-logo.png">
+                            <a class="footer-author-link" href="https://www.youtube.com/@MILWproductions/"
+                                target="_blank"><i>&nbsp;Milwaukee Road Productions</i></a>
+                        </div>
+                    </div>
+                    <div class="footer-author">
+                        <p class="footer-author-text">Roman Stelter</p>
+                        <div class="author-social">
+                            <img class="social-icon" src="img\instagram-logo.png">
+                            <a class="footer-author-link" href="https://www.instagram.com/milwaukee_road_is_great/"
+                                target="_blank"><i>&nbsp;@milwaukee_road_is_great</i></a>
+                        </div>
+                        <div class="author-social">
+                            <img class="social-icon" src="img\youtube-logo.png">
+                            <a class="footer-author-link" href="https://www.youtube.com/@RoaminaroundwithRoman/"
+                                target="_blank"><i>&nbsp;Roamin' Around With Roman!</i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-copyright">
